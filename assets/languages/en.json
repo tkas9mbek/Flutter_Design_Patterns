@@ -1,3 +1,15 @@
 {
-  "title": "Design Patterns"
+  "title": "Design Patterns",
+  "bird": {
+    "zero": "Birds",
+    "one": "Bird",
+    "many": "Birds",
+    "other": "Birds"
+  }  ,
+  "operation": {
+    "zero": "Operations",
+    "one": "Operation",
+    "many": "Operations",
+    "other": "Operations"
+  }
 }
