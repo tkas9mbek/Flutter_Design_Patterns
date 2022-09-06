@@ -1,4 +1,4 @@
-# flutter_design_patters
+# flutter_design_patterns
 
 The project contains Design Patterns implementations in Flutter.
 I am planning to add one pattern example each month
@@ -15,6 +15,8 @@ If you are new to Flutter, please first follow the [Flutter Setup](https://flutt
 ### Building and installing the Flutter Design Patterns app
 
 ```
+git clone https://github.com/tkas9mbek/Flutter_Design_Patterns.git
+cd Flutter_Design_Patterns
 flutter pub get
 flutter pub run build_runner build --delete-conflicting-outputs
 flutter run
