@@ -9,6 +9,10 @@ final designPatternListProvider = Provider<List<IDesignPattern>>(
     BehaviouralDesignPattern(
       title: 'Strategy',
       route: routeToStrategy,
-    )
+    ),
+    BehaviouralDesignPattern(
+      title: 'Template Method',
+      route: routeToTemplateMethod,
+    ),
   ],
 );

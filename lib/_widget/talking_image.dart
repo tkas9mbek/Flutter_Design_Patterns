@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'bright_square_background.dart';
+
 class TalkingImage extends StatelessWidget {
   const TalkingImage({
     required this.child,
@@ -14,13 +16,7 @@ class TalkingImage extends StatelessWidget {
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
 
-    return AspectRatio(
-      aspectRatio: 1,
-      child: Container(
-        decoration: const BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.all(Radius.circular(20)),
-        ),
+    return BrightSquareBackground(
         child: Stack(
           children: [
             Padding(
@@ -54,7 +50,6 @@ class TalkingImage extends StatelessWidget {
             ],
           ],
         ),
-      ),
     );
   }
 }

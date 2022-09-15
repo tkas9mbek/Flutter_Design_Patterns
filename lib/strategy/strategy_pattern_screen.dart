@@ -29,7 +29,7 @@ class _StrategyPatternScreenState extends ConsumerState<StrategyPatternScreen> {
     return PageFoundation(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('title'.tr()),
+        title: Text('birds_planet'.tr()),
       ),
       padding: TheStyles.generalBodyPadding,
       body: SingleChildScrollView(

@@ -5,11 +5,19 @@
     "one": "Bird",
     "many": "Birds",
     "other": "Birds"
-  }  ,
+  },
   "operation": {
     "zero": "Operations",
     "one": "Operation",
     "many": "Operations",
     "other": "Operations"
-  }
+  },
+  "structure": {
+    "zero": "Structures",
+    "one": "Structure",
+    "many": "Structures",
+    "other": "Structures"
+  },
+  "structure_builder": "Structure Builder",
+  "birds_planet": "Birds Planet"
 }

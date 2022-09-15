@@ -1,6 +1,6 @@
 # flutter_design_patterns
 
-The project contains Design Patterns implementations in Flutter.
+The project contains Design Patterns implementations in Dart programming language.
 I am planning to add one pattern example each month
 until all patterns covered in GoF book are implemented.
 
